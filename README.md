@@ -1,0 +1,1 @@
+curl -v -X POST "localhost:8080/e80beebe-2434-442a-89fd-363f511fba76/ws_data" --data "60"

@@ -1,0 +1,26 @@
+{
+  "name": "internet-relay",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -p tsconfig.json",
+    "build": "tsc",
+    "start": "ts-node --project tsconfig.json src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.10.0",
+    "uuid": "^3.3.2",
+    "commander": "^2.16.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^5.1.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
